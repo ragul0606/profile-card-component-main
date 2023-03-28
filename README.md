@@ -1,7 +1,7 @@
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/ragul0606/profile-card-component-main
+- Live Site URL: https://velvety-maamoul-ffcf61.netlify.app/
 
 ### Built with
 
