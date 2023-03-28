@@ -16,16 +16,94 @@ html {
   --Dark-gray: hsl(0, 0%, 59%);
 }
 
+img {
+  max-width: 100%;
+  object-fit: contain;
+  height: auto;
+}
+
 body {
+  display: flex;
   width: 100vw;
   height: 100vh;
   font-family: "Kumbh Sans", sans-serif;
+  background-color: var(--clr-dark-cyan);
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
-  width: 18rem;
-  height: auto;
+  width: 18.5rem;
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #ffff;
+  border-radius: var(--radius);
+  gap: 0.5rem;
+}
+
+.bg-img {
+  border-top-right-radius: var(--radius);
+  border-top-left-radius: var(--radius);
+}
+
+.profile-img {
+  border-radius: 50%;
+  margin-top: -65px;
+  border: 3px solid #ffffff;
+}
+
+.main-text {
+  font-size: 1rem;
+  color: var(--desaturated-blue);
+  font-weight: 700;
+}
+
+.age {
+  color: var(--grayish-blue);
+  opacity: 0.8;
+  font-weight: 400;
+  margin-left: 3px;
+}
+
+.profile-city {
+  color: var(--grayish-blue);
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.8;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.line {
+  width: 100%;
+  border: 0.5px solid var(--Dark-gray);
+  opacity: 0.4;
+}
+
+.card-footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+.card-footer-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+.details-count {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--desaturated-blue);
+}
+.details-type {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--grayish-blue);
+  opacity: 0.7;
 }
